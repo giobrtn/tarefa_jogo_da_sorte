@@ -21,13 +21,14 @@
     <div class="container mt-5">
       <p>Tente escolher o número correto:</p>
       <div class="btn-group d-flex justify-content-center my-4">
-        <button class="btn btn-primary" onClick=checkBtn(1)>1</button
-        ><button class="btn btn-primary" onClick=checkBtn(2)>2</button
-        ><button class="btn btn-primary" onClick=checkBtn(3)>3</button
-        ><button class="btn btn-primary" onClick=checkBtn(4)>4</button
-        ><button class="btn btn-primary" onClick=checkBtn(5)>5</button>
+        <button class="btn btn-primary" onClick="checkButton(0)">1</button
+        ><button class="btn btn-primary" onClick="checkButton(1)">2</button
+        ><button class="btn btn-primary" onClick="checkButton(2)">3</button
+        ><button class="btn btn-primary" onClick="checkButton(3)">4</button
+        ><button class="btn btn-primary" onClick="checkButton(4)">5</button>
       </div>
-      <p id="message" class="">Você acertou! O botão correto é o X</p>
+      <p id="message" class=""></p>
     </div>
+    <script src="./src/index.js"></script>
   </body>
 </html>
